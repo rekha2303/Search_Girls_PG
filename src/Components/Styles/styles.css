@@ -1,0 +1,12 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-detais-contain{
+    background: #f2f2f2;
+    padding: 20px;
+    margin: 5px 0px;
+    width: 30%;
+    text-align: left;
+}

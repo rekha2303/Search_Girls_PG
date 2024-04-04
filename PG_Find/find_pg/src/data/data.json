@@ -1,0 +1,17 @@
+{
+    "city":[
+        {
+            "name":"Bangalore",
+            "code":"blr"
+        },
+        {
+            "name":"Delhi",
+            "code":"dl"
+        }
+    ],
+    "product":[
+        {
+            "name":"pr1"
+        }
+    ]
+}

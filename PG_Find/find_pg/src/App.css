@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .backgroud-color {
+    padding: 10px;
+  }
+}
+.Main-Container {
+
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header {  
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 3px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--secodary_white); 
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  /* padding: 10px 20px; Adjust padding as needed */
+  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); Optional: Add a shadow for depth */
+  z-index: 1000; /* Ensure it's above other content */  
+}
+
+.Image-container{
+background-color: #d8232a;
+border: none;
+padding: 10px 0px 5px 60px;
+ 
+}
+
+
+
+.header-ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  padding-left: 20%;
+  gap: 20px;
+  list-style-type: none;
+  text-decoration: none;
+ 
+}
+
+.header-ul ul{
+  display:flex;
+  flex-direction: row;
+  text-decoration: none;
+  
+}
+
+.screen-height {
+  height: 95vh !important;
+
+ 
+}
+
+.icon-size-big-red{
+  font-size: 40vh !important;
+  color: var(--primary_color);
+}
+.icon-size-big-green{
+  font-size: 40vh !important;
+  color: var(--green);
+}
+.text-field{
+  background-color: var(--white);
+  color: var(--black);
+  outline: none;
+  border-radius: 5px;
+  margin-top: 5px !important;
+}
+.contact-us-container{
+  background-color: var(--primary_color);
+  padding: 7%;
+  margin: 10%;
+  border-radius: 7%;
+  /* transform: rotate(-1deg); */
+}
+.contact-button {
+  float: right;
+  background-color: var(--green) !important;
+  color: var(--white) !important;
+}
+.h-100vh {
+  height: 100vh !important;
+}
+
+.search {
+  height: 95vh !important;
+
+ 
+}
+.list-container{
+  background-color: white;
+  max-width: 79%;
+  max-height: 65%;
+  overflow: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 5px;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+.image-slider {
+  display: flex;
+  transition: transform 0.5s ease; /* Slide animation duration and easing */
+  overflow: scroll;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+.image-slider img {
+  flex: 0 0 auto;
+  width: 100%; /* Ensure images fill the slider container */
+}
+
+.Card-Container{
+display: flex;
+Flex-wrap: wrap;
+flex-direction: row;
+overflow :auto;
+}
+.card-top{
+  display: flex;
+Flex-wrap: wrap;
+min-width: 80%;
+flex-direction: row;
+overflow :auto;
+}
+
+.card-img-top {
+  height: 200px; /* Set the height to your desired value */
+}
+
+.cart {
+cursor: pointer;
+margin-right: 20px;
+
+
+}
+
+.cart span:nth-child(1){
+font-size: 1.5rem;
+color: rgb(248, 251, 252);
+
+}
+
+.cart span:nth-child(2){  
+  background-color: #d8232a;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+
+  }
